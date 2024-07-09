@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchitecture.Web", "OnionArchitecture.Web\OnionArchitecture.Web.csproj", "{D84B398C-98F4-4919-8294-5283123C8547}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnionArchitecture.Web", "OnionArchitecture.Web\OnionArchitecture.Web.csproj", "{D84B398C-98F4-4919-8294-5283123C8547}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QA.Data", "QA.Data\QA.Data.csproj", "{1E097AEE-F54E-44F3-AD83-AA32176E2506}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OA.Data", "QA.Data\OA.Data.csproj", "{1E097AEE-F54E-44F3-AD83-AA32176E2506}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QA.Repo", "QA.Repo\QA.Repo.csproj", "{C89E7FA0-45EC-4479-BA26-9A3A1E5BAD04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OA.Repo", "QA.Repo\OA.Repo.csproj", "{C89E7FA0-45EC-4479-BA26-9A3A1E5BAD04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QA.Service", "QA.Service\QA.Service.csproj", "{44EEB79B-DBFD-4717-A872-D388556338D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OA.Service", "QA.Service\OA.Service.csproj", "{44EEB79B-DBFD-4717-A872-D388556338D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

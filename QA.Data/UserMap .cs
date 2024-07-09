@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QA.Data
+namespace OA.Data
 {
     public class UserMap
     {
