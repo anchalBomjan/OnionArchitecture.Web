@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QA.Repo
+namespace OA.Repo
 {
     public class ApplicationDbContext:DbContext
     {

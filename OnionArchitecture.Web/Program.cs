@@ -1,7 +1,27 @@
+
+
+
+
+
+
+
+using Microsoft.EntityFrameworkCore;
+using OA.Repo;
+using OA.Service;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Configure the ApplicationContext to use SQL Server
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+
+// Register application services
+builder.Services.AddTransient<IUserProfileService, UserProfileService>();
+builder.Services.AddTransient<IUserProfileService, UserProfileService>();
 
 var app = builder.Build();
 
