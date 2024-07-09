@@ -20,7 +20,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
 // Register application services
-builder.Services.AddTransient<IUserProfileService, UserProfileService>();
+builder.Services.AddTransient<IUserService, UserService>();
 builder.Services.AddTransient<IUserProfileService, UserProfileService>();
 
 var app = builder.Build();
